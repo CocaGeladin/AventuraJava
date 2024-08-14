@@ -1,0 +1,29 @@
+body {
+
+background-color: rgb(194, 235, 235);
+color: rgb(3, 24, 43);
+}
+
+
+.passo { display: none; }
+.ativo { display: block; }
+.btnprincipal { 
+    margin: 5px 50px 0px  0px; 
+    padding: 10px;
+    border: 5000x;
+    border-color: rgb(162, 231, 231);
+    color: aliceblue;
+    background-color: rgb(69, 190, 211);
+    text-align: center;
+}
+
+.img-principal {
+height: 500px;
+}
+
+.imgbtn {
+    height: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+

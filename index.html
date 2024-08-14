@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada do Destino</title>
+    <link rel="stylesheet" href="style.css">.
+</head>
+<body>
+
+    <main>
+        <!-- Passo 1 -->
+        <div class="passo ativo" id="passo-1">
+            <img src="img/sotao.jpg" alt="sotao velho" class="img-principal"> </img>
+            <p>Você encontra um mapa antigo em um baú no sótão da sua casa. O mapa parece levar a um tesouro escondido. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="2" ><img src="img/mapa.png" alt="" class="imgbtn">Seguir o mapa imediatamente</button>
+            <button class="btnprincipal" data-proximo="3"> <img src="img/livro.webp" alt="" class="imgbtn"> Investigar a origem do mapa primeiro</button>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="passo" id="passo-2">
+            <img src="img/floresta.jpg" alt="floreta densa" class="img-principal">
+            <p>Você decide seguir o mapa e chega a uma floresta densa. O mapa aponta para um local específico dentro da floresta. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="4"><img src="img/iconeArvore.png" class="imgbtn"> Entrar na floresta e seguir o mapa</button>
+            <button class="btnprincipal" data-proximo="5"><img src="img/iconePrédio.png" class="imgbtn">Voltar para a cidade e buscar ajuda</button>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="passo" id="passo-3">
+            <p>Você começa a pesquisar sobre o mapa e descobre que ele pertenceu a um explorador famoso. Há uma referência a um livro raro sobre suas aventuras. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="6">Procurar o livro raro na biblioteca local</button>
+            <button class="btnprincipal" data-proximo="7">Procurar por especialistas em artefatos históricos</button>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="passo" id="passo-4">
+            <p>Você adentra a floresta e encontra um caminho bifurcado. O mapa aponta para a esquerda, mas há um sinal antigo à direita. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="8">Seguir o caminho à esquerda</button>
+            <button class="btnprincipal" data-proximo="9">Seguir o sinal à direita</button>
+        </div>
+
+        <!-- Passo 5 -->
+        <div class="passo" id="passo-5">
+            <p>Você decide buscar ajuda e encontra um grupo de aventureiros na cidade. Eles parecem dispostos a ajudar. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="10">Juntar-se ao grupo e seguir com eles</button>
+            <button class="btnprincipal" data-proximo="11">Continuar a busca sozinho</button>
+        </div>
+
+        <!-- Passo 6 -->
+        <div class="passo" id="passo-6">
+            <p>Na biblioteca, você encontra o livro raro. Ele contém detalhes adicionais sobre o tesouro e algumas armadilhas. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="12">Estudar as armadilhas e seguir o mapa com cautela</button>
+            <button class="btnprincipal" data-proximo="13">Procurar por uma cópia digital do livro para mais informações</button>
+        </div>
+
+        <!-- Passo 7 -->
+        <div class="passo" id="passo-7">
+            <p>Você encontra um especialista em artefatos históricos que confirma a autenticidade do mapa e menciona um local específico que pode ser perigoso. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="12">Seguir o conselho do especialista e evitar o local perigoso</button>
+            <button class="btnprincipal" data-proximo="13">Ignorar o aviso e seguir o mapa mesmo assim</button>
+        </div>
+
+        <!-- Passo 8 -->
+        <div class="passo" id="passo-8">
+            <p>Você segue o caminho à esquerda e encontra uma caverna. Dentro da caverna, há duas passagens: uma iluminada e outra escura. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="12">Explorar a passagem iluminada</button>
+            <button class="btnprincipal" data-proximo="13">Explorar a passagem escura</button>
+        </div>
+
+        <!-- Passo 9 -->
+        <div class="passo" id="passo-9">
+            <p>Você segue o sinal à direita e encontra uma clareira com uma fonte mágica. Há uma inscrição que sugere que algo importante está escondido ali. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="12">Investigar a fonte mágica</button>
+            <button class="btnprincipal" data-proximo="13">Ignorar a fonte e seguir o mapa novamente</button>
+        </div>
+
+        <!-- Passo 10 -->
+        <div class="passo" id="passo-10">
+            <p>Com a ajuda dos aventureiros, você chega a uma antiga estrutura escondida na floresta. Há uma entrada trancada e um quebra-cabeça à frente. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="12">Tentar resolver o quebra-cabeça para abrir a entrada</button>
+            <button class="btnprincipal" data-proximo="13">Procurar por outra entrada</button>
+        </div>
+
+        <!-- Passo 11 -->
+        <div class="passo" id="passo-11">
+            <p>Você decide continuar sozinho e encontra uma velha cabana no meio da floresta. Dentro, há pistas que podem levar ao tesouro. O que você faz?</p>
+            <button class="btnprincipal" data-proximo="12">Seguir as pistas da cabana</button>
+            <button class="btnprincipal" data-proximo="13">Ignorar as pistas e procurar o tesouro diretamente</button>
+        </div>
+
+        <!-- Passo 12 -->
+        <div class="passo" id="passo-12">
+            <p>Você segue suas escolhas e encontra um cofre escondido com um tesouro valioso. Seu esforço e escolhas cuidadosas foram recompensados. Você conseguiu encontrar o tesouro!</p>
+        </div>
+
+        <!-- Passo 13 -->
+        <div class="passo" id="passo-13">
+            <p>Apesar das dificuldades e desafios, você não encontra o tesouro, mas ganha novas habilidades e conhecimentos ao longo do caminho. Sua jornada, embora não tenha terminado como esperado, foi cheia de aprendizados e aventuras.</p>
+        </div>
+    </main>
+
+    <script>
+        document.querySelectorAll('.btnprincipal').forEach(button => {
+        button.addEventListener('click', function() {
+            document.querySelectorAll('.passo').forEach(passo => passo.classList.remove('ativo'));
+            const proximoPasso = document.getElementById('passo-' + this.getAttribute('data-proximo'));
+            if (proximoPasso) {
+                proximoPasso.classList.add('ativo');
+            }
+        });
+    });</script>
+
+</body>
+</html>
